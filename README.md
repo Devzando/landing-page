@@ -17,7 +17,7 @@
 </div>
 
 <div>
-    <h2>⌨ Tecnologias Back-End</h2>
+    <h2>💻 Tecnologias Back-End</h2>
     <ul>
         <li>None</li>
     </ul>
@@ -26,7 +26,7 @@
 </div>
 
 <div>
-    <h2>Como executar a aplicação:</h2>
+    <h2>⌨ Como executar a aplicação:</h2>
      <h3 style="font-weight: bold" > Faça o clone do Repositório e siga as instruções</h3>
      <br>
      <ol>
