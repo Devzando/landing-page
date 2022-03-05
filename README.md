@@ -1,7 +1,7 @@
 <h1 align="center">Landing Page</h1>
 
 <div align="center">
-    <img src="landing-page_trim.gif" alt="landing-page-gif">
+    <img src="landing-page_Trim.gif" alt="landing-page-gif">
     <hr>
     <br>
 </div>
