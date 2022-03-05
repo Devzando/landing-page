@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    text-decoration: none;
+
+}
+
+body{
+    background-color: #333;
+    overflow-x: hidden;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+}
+
+.container .section1{
+    width: 100%;
+    min-height: 60%;
+}
+
+.container .section1 .img-header{
+    position: absolute;
+    width: 100%;
+    height: 450px;
+    background: #333 url('https://static.pexels.com/photos/248515/pexels-photo-248515.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1;
+    opacity: 0.4;
+}
+
+.container .section1 div{
+    text-align: center;
+    padding: 9% 15% 0 15%;
+    color: white;
+}
+
+.container .section1 div h1{
+    font-size: 34px;
+    margin-bottom: 1em;
+
+}
+
+.container .section1 div p{
+    display: block;
+    font-size: 1.2em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.container .section1 div a{
+    display: inline-block;
+    color: white;
+    font-size: 1.3em;
+    border: 1px solid #666;
+    background-color: #333;
+    padding: 2% 3%;
+    margin-top: 3%;
+    transition: 1s ease;
+}
+
+.container .section1 div a:hover{
+    background-color: rgb(145, 144, 144);
+}
+
+.container .section2{
+    width: 100%;
+    min-height: 40%;
+    background-color: white;
+    padding: 3% 0 0 0;
+}
+
+.container .section2 h2{
+    text-align: center;
+    font-size: 1.6em;
+    color: #333;
+}
+
+.container .section2 div{
+    display: flex;
+    align-items: center;
+    padding: 0 14%;
+    margin-top: 5%;
+}
+
+.container .section2 div span{
+    font-size: 1.2em;
+    color: #333;
+}
+
+.container .section3{
+    min-height: 80vh;
+    padding: 5% 20%;
+}
+
+.container .section3 .container-cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.container .section3 .container-cards div{
+    background-color: white;
+    max-width: 31%;
+    border-radius: 8px;
+
+}
+
+.container .section3 .container-cards div img{
+    display: block;
+    width: 100%;
+    border-radius: 8px;
+}
+
+.container .section3 .container-cards div h2{
+    text-align: center;
+    font-size: 1.3em;
+    padding: 20% 2%;
+    color: #333;
+}
+
+.container .section3 .container-cards div p{
+    text-align: center;
+    font-size: 1.2em;
+    color: #333;
+    padding: 0 4% 20% 4%;
+}
+
+.container .section4{
+    width: 100%;
+    min-height: 45%;
+    background-color: white;
+    padding: 3% 0 0 0;
+}
+
+.container .section4 div{
+    text-align: center;
+}
+
+.container .section4 div h2{
+    text-align: center;
+    font-size: 1.6em;
+    margin-bottom: 5%;
+    color: #333;
+}
+
+.container .section4 div p{
+    font-size: 1.2em;
+    text-align: center;
+    color: #333;
+    padding: 0 20%;
+}
+
+.container .section5{
+    max-height: 50vh;
+}
+
+.container .section5 .footer{
+    display: flex;
+
+}
+
+.container .section5 .footer div{
+    max-width: 50%;
+}
+
+.container .section5 .footer div:first-child{
+    background-color: #2690d4;
+   
+}
+
+.container .section5 .footer div{
+    height: 100%;
+    padding: 5% 2%;
+}
+
+.container .section5 .footer div h2{
+    font-size: 1.6em;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin-bottom: 9%;
+}
+
+.container .section5 .footer div p{
+    color: white;
+    text-align: center;
+    font-size: 1.1em;
+    margin-bottom: 5%;
+}
+
+.container .section5 .footer div span{
+    display: block;
+    text-align: center;
+    font-size: 1.1em;
+    color: white;
+
+}
+
+.container .section6{
+    background-color: black;
+    height: 100%;
+    max-height: 10%;
+}
+
+.container .section6 div{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.container .section6 div span{
+    color: white;
+    font-size: 1.3em;
+    font-weight: bold;
+}
